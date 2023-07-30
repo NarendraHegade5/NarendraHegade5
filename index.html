@@ -61,26 +61,22 @@
     <tr onmouseout="bakedsdf_stop()" onmouseover="bakedsdf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='bakedsdf_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/bakedsdf_after.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/DCQF.png' width="160">
+          <img src='images/DCQF.png' width="180" height="130">
         </div>
         <script type="text/javascript">
           function bakedsdf_start() {
-            document.getElementById('bakedsdf_image').style.opacity = "1";
+            document.getElementById('DCQF').style.opacity = "1";
           }
 
           function bakedsdf_stop() {
-            document.getElementById('bakedsdf_image').style.opacity = "0";
+            document.getElementById('DCQF').style.opacity = "0";
           }
           bakedsdf_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2301.11005" target="_blank" rel="noopener noreferrer">
-          <papertitle>Digitized-counterdiabatic Quantum Factorization</papertitle>
+          <papertitle>Digitized-Counterdiabatic Quantum Factorization</papertitle>
         </a>
         <br>
         <strong>Narendra N. Hegade</strong>,
@@ -93,9 +89,48 @@
         <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a>
         / -->
         <a href="https://arxiv.org/abs/2301.11005" target="_blank" rel="noopener noreferrer">arXiv</a>
-        <p></p>
         <p>
-        We factorize a 48-bit integer using 10 trapped-ion qubits on a Quantinuum's quantum computer.
+        We proposed a Digitized-CounterDiabatic Quantum Factorization (DCQF) algorithm and successfully utilized it to factorize a 48-bit integer. This was achieved using 10 trapped-ion qubits on a quantum computer provided by Quantinuum.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="bakedsdf_stop()" onmouseover="bakedsdf_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <img src='images/proteinfolding.jpeg' width="180" height="130">
+        </div>
+        <script type="text/javascript">
+          function bakedsdf_start() {
+            document.getElementById('DCQF').style.opacity = "1";
+          }
+
+          function bakedsdf_stop() {
+            document.getElementById('DCQF').style.opacity = "0";
+          }
+          bakedsdf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.20.014024" target="_blank" rel="noopener noreferrer">
+          <papertitle>Digitized-Counterdiabatic Quantum Algorithm for Protein Folding</papertitle>
+        </a>
+        <br>
+        <em>Pranav Chandarana</em>,
+        <strong>Narendra N. Hegade</strong>,
+        <em>Iraitz Montalban </em>,
+        <em>Enrique Solano </em>,
+        <em>Xi Chen</em>
+        <br>
+        <em>Phys. Rev. Applied 20, 014024 (2023)</em>
+        <br>
+        <!-- <a href="https://bakedsdf.github.io/">project page</a>
+        /
+        <a href="https://www.youtube.com/watch?v=fThKXZ6uDTk">video</a>
+        / -->
+        <a href="https://arxiv.org/abs/2212.13511" target="_blank" rel="noopener noreferrer">arXiv</a>
+        <p>
+        We propose a hybrid classical-quantum digitized-counterdiabatic algorithm to tackle the protein folding problem on a tetrahedral lattice. We apply our method to proteins with up to 9 amino acids, using up to 17 qubits on quantum hardware.
         </p>
       </td>
     </tr>
