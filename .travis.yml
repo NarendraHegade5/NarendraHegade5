@@ -1,6 +1,9 @@
-language: ruby
-rvm:
-  - 2.4.1
+steps:
+- uses: actions/checkout@v2
+- uses: ruby/setup-ruby@v1
+  with:
+    ruby-version: 2.7
+- run: ruby --version
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
