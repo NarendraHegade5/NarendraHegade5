@@ -11,6 +11,14 @@
 </head>
 
 <body>
+  <header>
+      <label for="menu-toggle" class="menu-button">&#9776;</label>
+      <input type="checkbox" id="menu-toggle" class="toggle">
+      <nav class="dropdown-content">
+          <a href="#about-me">About-me</a>
+          <a href="#research">Research</a>
+      </nav>
+  </header>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
@@ -18,7 +26,7 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Narendra N. Hegade</name>
+                <div id="about-me"> <name>Narendra N. Hegade</name> </div>
               </p>
               <p align="justify"> Hello! I am a physicist specializing in quantum computation and quantum information. Currently, I hold the position of Principal Scientist, leading the tech team at <a href="https://kipu-quantum.com/" target="_blank" rel="noopener noreferrer">Kipu Quantum</a>, a quantum computing startup based in Germany. My primary focus revolves around breaking the abstraction barrier between quantum hardware and software. Through the development of application- and hardware-specific quantum algorithms, I strive to bring practical applications of quantum computing closer to reality.
               </p>
@@ -47,7 +55,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <div id="research"><heading>Research</heading> </div>
               <p align="justify">
                 My current research works are focused on digital-analog quantum computing (DAQC), and digitized-counterdiabatic quantum computing (DCQC) methods to tackle quantum optimization, material design and quantum chemistry problems on a near-term quantum computers.
               </p>
